@@ -1,0 +1,420 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: 
+}
+
+iframe {
+    background: center;
+}
+
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.logo {
+	text-decoration: none;
+	color: #595959;
+	font-size: 58px;
+	margin-top: 20px;
+	background: url(./img/green.png) no-repeat;
+	background-position: 110px 26px;
+	float: left;
+	font-weight: 100;
+}
+
+.logo span {
+	color: #313131;
+	margin-left: 25px;
+}
+
+
+
+.menu {
+	float: right;
+	margin-top: 28px;
+    margin-bottom: 30px;
+}
+
+
+.menu li {
+	list-style-type: none;
+    display: inline-block;
+    
+}
+
+.menu a {
+	color: #595959;
+	font-size: 23px;
+	text-decoration: none;
+	margin-left: 45px;
+	padding: 6px 10px;
+
+
+}
+
+.menu a:hover {
+	color: #fff;
+	padding: 6px 10px;
+	background-color: #373737;
+}
+
+hr {
+	width: 100%;
+	opacity: 0.3;
+
+}
+
+.bot_menu {
+	margin-top: 150px;
+	font-size: 23px;
+	color: #595959;
+	display: inline-block;
+	float: left;
+	margin-left: 180px;
+	background: cover;
+
+}
+
+.bot_menu h1 {
+	font-size: 55px;
+	font-weight: 100;
+}
+
+.bot_menu h3 {
+	margin-top: -40px;
+	font-weight: 100;
+}
+
+
+
+/*Кнопка*/
+
+.button {
+	float: left;
+	display: inline-block;
+
+}
+
+.button a {
+	color: #fff;
+	font-size: 23px;
+	text-decoration: none;
+	background-color: #373737;
+	padding: 4px 25px 4px 35px;
+	
+}
+
+
+.btn a {
+	background-image: url(./img/camera.png);
+	background-repeat: no-repeat;
+	background-position: 6px 9px;
+	padding-left: 45px;
+
+}
+
+/*
+.image {	
+	margin-top: -240px;
+	margin-left: 250px;
+	float: right;
+    display: inline-block;
+    margin-right: 70px;
+    background: url(./img/banner.png);
+}
+*/
+
+.image-one {
+	background: url(./img/banner.png); 
+	background-repeat: no-repeat;
+	background-position: 500px 110px;
+	min-width: 1000px;
+	height: 500px;
+
+}
+
+.slide {
+	width: 305px;
+	height: 235px;
+	background-color: #C1C1C1;
+	float: left;
+	margin-top: 65px;
+}
+
+.ipad-one {
+	margin-top: 67px;
+	margin-left: 40px;
+	
+	float: left;
+}
+
+.ipad-two {
+	 margin-top: 67px;
+     margin-right: 36px;
+     float: right;
+} 
+
+.text {
+	width: 315px;
+	float: left;
+	text-align: left;
+	margin-left: 25px;
+	margin-top: 15px;
+	color: #837D7D;
+	
+}
+
+.text h4 {
+	font-size: 30px;
+	font-weight: 200;
+}
+
+.article-right {
+	float: right;
+	width: 320px;
+	height: 250px;
+	border: 1px solid #E5E1E1;
+	margin-top: 55px;
+	text-align: center;
+	color: #9BA08D;
+	font-size: 18px;
+}
+
+.top-text {
+	margin-top: -15px;
+}
+
+.top-text h4 {
+	color: #B8DC58;
+	margin-top: -27px;
+	font-size: 26px;
+
+}
+
+.ipad {
+	float: left;
+	margin-left: 40px;
+	margin-top: -15px;
+}
+
+.left_ipad {
+	margin-bottom: 15px;
+
+}
+
+.path {
+	border: 3px solid #fff;
+	border-radius: 50%;
+}
+
+
+.right_ipad {
+
+	margin-bottom: -13px;
+	margin-left: -38px;
+}
+
+.css_img {
+	margin-left: 32px;
+    margin-bottom: 13px;
+}
+
+/*===========Колонки============*/
+
+.thre_cols {
+	float: left;
+	display: block;
+
+}
+
+.col {
+	color: #766F6F;
+	display: inline-block;
+	text-align: left;
+	width: 20%;
+	float: left;
+	height: 200px;
+	margin-left: 20px;
+}
+
+.nt {
+	margin-top: 30px;
+
+}
+
+
+.col:first-child {
+	margin-left: 0;
+}
+
+.col p {
+	font-size: 12px;
+}
+
+.col h4 {
+	font-size: 22px;
+	font-weight: 100;
+}
+
+
+
+.banner {
+	width: 320px;
+	height: 275px;
+	float: right;
+	background: #86E7F0;
+	margin-top: 50px;
+}
+
+.ban_img {
+	text-align: center;
+    margin-top: -32px;
+    color: #fff;
+}
+
+.ban_img h4 {
+	
+	font-size: 80px;
+    margin-top: -132px;
+
+}
+
+.ban_img p {
+
+	font-size: 32px;
+    margin-top: -124px;
+}
+
+.ban_img h1 {
+	font-size: 46px;
+	margin-bottom: 17px;
+	margin-top: -14px;
+	font-weight: 400;
+}
+
+.ban_img h3 {
+	font-size: 26px;
+	font-weight: 100;
+	margin-top:-16px;
+}
+
+
+/*====Кнопки*=========*/
+
+.butt {
+	text-align: center;
+
+}
+
+.butt a {
+	font-size: 20px;
+	color: #fff;
+	text-decoration: none;
+	background: #58D1DC;
+	border-radius: 4px;
+	padding: 3px 12px;
+	margin-bottom: 15px;
+
+}
+
+.bt-up {
+	margin-top: 5px;
+}
+
+.bt-up a {
+   background: #BB4465;
+
+}
+
+
+
+/*===Правое черное меню====*/
+
+.black {
+	background: #393A39;
+	color: #fff;
+	text-align: center;
+}
+
+.black h3 {
+	font-size: 32px;
+	font-weight: 100;
+	opacity: 0.9;
+	margin-top: 16px;
+}
+
+.black p {
+	font-size: 20px;
+	opacity: 0.9;
+	margin-top: -14px;
+	font-weight: normal;
+}
+
+input {
+	width: 230px;
+	margin-bottom: 10px;
+}
+
+.polos {
+	height: 5px;
+	width: 100%;
+	background: #BB4465;
+	margin-top: 20px;
+
+}
+
+footer {
+	width: 100%;
+	height: 85px;
+	background: #393A39;
+	display: inline-block;
+	margin-top: 55px;
+	text-align: center;
+}
+
+footer p {
+	opacity: 0.8;
+	margin-top: 32px;
+	color: #fff;
+	display: inline-block;
+	margin-left: 250px;
+
+}
+
+
+.social {
+	margin-right: 200px;
+	float: right;
+	display: inline-block;
+
+}
+
+.social img {
+	margin-left: 10px;
+	margin-top: 24px;
+}  
+
+
+
+@media screen and (max-width: 100px){
+
+.logolo {
+   margin: 0 auto;
+   background: #000;
+   
+
+	 } 
+
+.logolo a {
+		margin-left: 100px;
+
+	}
+
+.menu ul {
+	margin: 0 auto;
+}
+
+
+  }
