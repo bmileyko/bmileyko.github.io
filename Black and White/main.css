@@ -1,0 +1,421 @@
+/*font-family: 'Merriweather Sans', sans-serif;*/
+/*font-family: 'Montserrat', sans-serif;*/
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Montserrat", sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	max-width: 980px; 
+	margin: 0 auto;
+	
+}
+
+
+.top_menu {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	font-size: 14px;
+	background: url(./img/path21.png) no-repeat ;
+	background-position: center;
+	font-family: "Roboto", sans-serif;
+	
+}
+
+
+.top_menu li {
+	list-style-type: none;
+
+}
+
+.top_menu a {
+	text-decoration: none;
+	color: #000;
+	opacity: 0.6;
+	
+}
+
+.top_menu a:hover {
+	color: #000;
+	opacity: 1;
+}
+
+.left_menu {
+	width: 42%;
+}
+
+.left_menu ul {
+	display: flex;
+	justify-content: space-around;
+	
+}
+
+
+.right_menu {
+	width: 45%;
+}
+
+.right_menu ul {
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.title {
+	margin-top: 150px;
+
+}
+
+.title h1 {
+	font-size: 44px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: Merriweather Sans, sans-serif;
+	font-weight: 100;
+}
+
+.title p {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: -20px;
+	font-family: Montserrat, sans-serif;
+	opacity: 0.4;
+}
+
+.button {
+	font-size: 13px;
+	font-weight: bold;
+	font-family: Montserrat, sans-serif;
+	display: flex;
+	justify-content: center;
+	margin-top: 55px;
+	text-transform: uppercase;
+}
+
+.button a {
+	color: #000;
+	padding: 20px 50px;
+	border: 1px solid #000;
+}
+
+/*Cекция*/
+
+
+.wrap {
+	
+	display: flex;
+	justify-content: space-around;
+	background: #1D1D1D;
+	margin-top: 201px;
+	max-height: 1360px;
+	max-width: 100%;
+}
+
+
+.block {
+	margin-top: 100px;
+	width: 400px;
+	
+}
+
+.block h1 {
+	font-size: 40px;
+	color: #fff;
+	font-family: "Merriweather", sans-serif;
+}
+
+.block {
+	font-size: 40px;
+	color: #fff;
+}
+
+.right {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.block p {
+	font-size: 12px;
+	opacity: 0.8;
+}
+
+.block2 {
+	margin-top: 220px;
+}
+
+table {
+	border: 1px solid #fff;
+	width: 2px;
+	height: 420px;
+}   
+
+.two {
+	margin-top: 0;
+}
+
+
+/*Город*/
+
+.im {
+	background: #1D1D1D;
+	margin: 0 auto;
+	
+	
+}
+
+.image {
+	height: 235px;  
+	background: url(./img/sity.png), url(./img/sity2.png);
+	background-position: center;
+	background-repeat: no-repeat;
+
+
+}
+
+
+/*Разработчик*/ 
+
+
+.art {
+	margin-top: 50px;
+
+}
+
+.art h1 {
+	font-size: 34px;
+	font-family:  sans-serif;
+	font-style: normal;
+	font-weight: 100;
+	opacity: 0.9;
+	color: #1E1E1E;
+}
+
+.art p {
+	font-size: 16px;
+	font-family: 'Merriweather', serif;
+	opacity: 0.5;
+	font-weight: 600;
+	font-style: italic;
+}
+
+
+.developers {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 120px;
+	text-align: center;
+	padding-bottom: 100px;
+
+}
+
+.devel {
+	width: 33%;
+}
+
+.devel h3 {
+	font-size: 24px;
+	font-weight: 100;
+	opacity: 0.7;
+
+}
+
+.devel p {
+	margin-top: -22px;
+	font-size: 13px;
+	opacity: 0.4;
+}
+
+.down {
+	margin-top: 80px;
+}
+
+.soc {
+	opacity: 0.4;
+}
+
+
+/*Черная секция*/
+
+
+.black_section {
+	background: #181818;
+	padding-top: 40px;
+	height: 900px;
+
+
+}
+
+
+.black_title {
+	color: #fff;
+	margin-top: 100px;
+	
+}
+
+.black_title h3 {
+	display: flex;
+	justify-content: center;
+	font-size: 34px;
+	opacity: 0.8;
+	font-weight: 100;
+	font-family: sans-serif;
+	font-style: normal;
+
+
+}
+
+.black_title p {
+	display: flex;
+	justify-content: center;
+	font-size: 16px;
+	margin-top: -25px;
+	font-style: italic;
+	font-family: 'Merriweather Sans', sans-serif;
+	opacity: 0.5;
+
+}
+
+.icon_set {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 200px;
+}
+
+
+.icon h3 {
+	font-size: 26px;
+	color: #fff;
+	font-weight: 100;
+}
+
+.icon p {
+	font-size: 14px;
+	color: #fff;
+	opacity: 0.1;
+	font-weight: 100;
+}
+
+
+
+.black_button {
+	margin: 150px auto;
+	background: #fff;
+	text-align: center;
+	width: 200px;
+	font-size: 16px;
+
+}
+
+.black_button a {
+	display: flex;
+	justify-content: center;
+	color: #000;
+	text-transform: uppercase;
+	padding: 20px 20px;
+
+}
+
+/*Подвал*/ 
+
+.title_ft {
+	margin: 0 auto;
+	margin-top: 100px;
+	
+}
+
+.title_ft h3 {
+	display: flex;
+	justify-content: center;
+	font-size: 34px;
+	opacity: 0.8;
+	font-weight: 100;
+	font-family: sans-serif;
+	font-style: normal;
+
+
+}
+
+.title_ft p {
+	display: flex;
+	justify-content: center;
+	font-size: 16px;
+	margin-top: -25px;
+	font-style: italic;
+	font-family: 'Merriweather Sans', sans-serif;
+	opacity: 0.5;
+
+}
+
+.social {
+	margin-top: 100px;
+	text-align: center;
+	justify-content: space-around;
+	display: flex;
+	
+
+}
+
+.communication {
+	width: 33%;
+}
+
+.communication p {
+	font-size: 12px;
+	opacity: 0.7;
+
+}
+
+
+.bot_menu {
+	margin-top: 150px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.bot_menu input {
+	text-align: center;
+
+}
+
+.line {
+	padding: 15px 0;
+	margin: 10px 0;
+}
+
+.bot_l {
+	padding-left: 20px;
+
+}
+
+.btn {
+	text-align: center;
+	background: #161616;
+	padding: 15px 0;
+	margin-top: 10px;
+}
+
+.btn a {
+	display: flex;
+	justify-content: center;
+	color: #fff;
+}
+
+.text_bot {
+	font-size: 12px;
+	text-align: center;
+	margin-top: 150px;
+	opacity: 0.8;
+	padding-bottom: 15px;
+}
