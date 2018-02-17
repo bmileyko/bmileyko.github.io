@@ -1,0 +1,18 @@
+ @media screen and (max-width: 750px) {
+     .right_menu ul { display: block; 
+     margin-left: 35px;
+     list-style:
+   }
+     .right_menu a { opacity: 1; }
+     .logo h1 { margin-left: 0; }
+  
+   }
+
+ @media screen and (max-width: 900px) {
+      .coffe { background: none;
+      display: none; }
+      .title h2  { font-size: 30px;
+        } 
+
+
+   }
